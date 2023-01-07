@@ -123,3 +123,30 @@
     font-size: 20px;
     color: darkslategray;
 }
+/* mindset */
+.mind{
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+    url("/images/watch.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mindset-head{
+    color: white;
+    font-weight: 600;
+    font-size: 55px;
+    margin-top: 37px;
+    margin-left: 37px;
+    margin-bottom: 15px;
+}
+.btn{
+    margin-left: 37px;
+    margin-bottom: 37px;
+}
