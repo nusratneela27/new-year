@@ -183,3 +183,58 @@
     font-size: 20px;
     color: darkslategray;
 }
+/* contact */
+.contact{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    background-color: black;
+    margin-top: 150px;
+    padding: 130px 200px;
+}
+.contact .contact-cont{
+    text-align: left;
+}
+.contact-head{
+    display: flex;
+    color: white;
+    font-weight: 600;
+    font-size: 45px;
+}
+.contact-des{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.contact-info{
+    color: white;
+    margin-bottom: 10px;
+}
+.icons a{
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+}
+.subs{
+    color: white;
+    font-size: 30px;   
+    font-weight: 300;
+}
+.inp input[type="email"]{
+    background-color: black;
+    border-color: beige;
+    width: 100%;
+    padding: 15px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-n{
+    color: #F15B22;
+    background-color: white;
+    border-radius: 5%;
+    padding: 16px 35px;
+    font-size: 18px;
+}
