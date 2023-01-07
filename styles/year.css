@@ -77,10 +77,10 @@
     margin-bottom: 20px;
 }
 
-.unicode::before {
+/* .unicode::before {
     content: '\2714 \fe0e';
     color: green;
-}
+} */
 
 .unicode {
     color: darkslategray;
