@@ -44,6 +44,8 @@
     margin-top: 20px;
 }
 
+/* my-failures */
+
 .my-failures {
     margin: 0 auto;
     max-width: 1140px;
@@ -52,7 +54,6 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-
 }
 
 .failure {
@@ -63,7 +64,7 @@
 }
 
 .failure-title {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 40px;
     color: black;
 }
@@ -76,6 +77,49 @@
     margin-bottom: 20px;
 }
 
-/* span{
-    content: : "\2713";
-} */
+.unicode::before {
+    content: '\2714 \fe0e';
+    color: green;
+}
+
+.unicode {
+    color: darkslategray;
+}
+
+/* my plans */
+.head {
+    margin: 0 auto;
+    max-width: 1140px;
+    font-weight: 900;
+    font-size: 40px;
+    color: black;
+    margin-top: 70px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.my-plans {
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.plan-head {
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.plan-des {
+    font-weight: 300;
+    font-size: 20px;
+    color: darkslategray;
+}
